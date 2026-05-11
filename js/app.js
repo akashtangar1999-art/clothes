@@ -13,6 +13,7 @@ function getProducts() {
         "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K03.webp",
         "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K04.webp",
         "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K05.webp"
+                ],
             description: "Upgrade your ethnic wardrobe with this premium women’s cotton kurta and pant set, designed to deliver unmatched comfort, elegant fashion, and modern versatility for every occasion. Made from high-quality breathable 100% cotton fabric, this stylish outfit offers a lightweight and skin-friendly feel, making it perfect for daily wear, office wear, festive gatherings, travel, and casual outings. The beautifully crafted V-neck kurta features intricate embroidery detailing on the sleeves and neckline, adding a luxurious designer-inspired touch that enhances its sophisticated appearance. Paired with comfortable straight-fit cotton pants, this coordinated outfit creates a polished and graceful look suitable for women who value both fashion and comfort.",
             sizes: [
                 { label: "XS", value: "XS", inStock: true },
