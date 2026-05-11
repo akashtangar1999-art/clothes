@@ -9,6 +9,7 @@ function getProducts() {
             brand: "Nike", category: "fashion", subcategory: "shoes",
             price: 8995, discount: 35, rating: 4.3, reviews: 23456,
             image:"https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=400&h=400&fit=crop",
+             "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=400&h=400&fit=crop",
             description: "The Nike Air Max 270 React combines two of Nike biggest innovations for an unbelievably soft and smooth ride. Lightweight and durable for all-day comfort.",
             sizes: [
                 { label: "UK 6", value: "UK6", inStock: true },
