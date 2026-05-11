@@ -5,27 +5,49 @@
 function getProducts() {
     return [
         {
-            id: 1, name: "Women Cotton Rayon Kurta Pant Set",
-            brand: "Gosriki", category: "fashion", subcategory: "kurti",
-            price: 139, discount: 90, rating: 4.6, reviews: 1543,
-            image: "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K01.webp"
-            "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K01.webp",
-            description: "Upgrade your ethnic wardrobe with this premium women’s cotton kurta and pant set, designed to deliver unmatched comfort, elegant fashion, and modern versatility for every occasion. Made from high-quality breathable 100% cotton fabric, this stylish outfit offers a lightweight and skin-friendly feel, making it perfect for daily wear, office wear, festive gatherings, travel, and casual outings. The beautifully crafted V-neck kurta features intricate embroidery detailing on the sleeves and neckline, adding a luxurious designer-inspired touch that enhances its sophisticated appearance. Paired with comfortable straight-fit cotton pants, this coordinated outfit creates a polished and graceful look suitable for women who value both fashion and comfort.",
-            sizes: [
-                { label: "XS", value: "XS", inStock: true },
-                { label: "S", value: "S", inStock: true },
-                { label: "M", value: "M", inStock: true },
-                { label: "L", value: "L", inStock: true },
-                { label: "XL", value: "XL", inStock: true },
-                { label: "XXL", value: "XXL", inStock: false },
-                { label: "3XL", value: "3XL", inStock: true }
-            ],
-            sizeType: "clothing",
-            sizeChart: {
-                headers: ["Size", "Chest (inches)", "Length (inches)", "Shoulder (inches)"],
-                rows: [["XS","36","26","16"],["S","38","27","17"],["M","40","28","18"],["L","42","29","19"],["XL","44","30","20"],["XXL","46","31","21"],["3XL","48","32","22"]]
-            }
-        },
+    id: 1,
+    name: "Women Cotton Rayon Kurta Pant Set",
+    brand: "Gosriki",
+    category: "fashion",
+    subcategory: "kurti",
+    price: 139,
+    discount: 90,
+    rating: 4.6,
+    reviews: 1543,
+
+    images: [
+        "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K01.webp",
+        "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K02.webp",
+        "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K03.webp"
+    ],
+
+    description: "Upgrade your ethnic wardrobe with this premium women’s cotton kurta and pant set...",
+
+    sizes: [
+        { label: "XS", value: "XS", inStock: true },
+        { label: "S", value: "S", inStock: true },
+        { label: "M", value: "M", inStock: true },
+        { label: "L", value: "L", inStock: true },
+        { label: "XL", value: "XL", inStock: true },
+        { label: "XXL", value: "XXL", inStock: false },
+        { label: "3XL", value: "3XL", inStock: true }
+    ],
+
+    sizeType: "clothing",
+
+    sizeChart: {
+        headers: ["Size", "Chest (inches)", "Length (inches)", "Shoulder (inches)"],
+        rows: [
+            ["XS","36","26","16"],
+            ["S","38","27","17"],
+            ["M","40","28","18"],
+            ["L","42","29","19"],
+            ["XL","44","30","20"],
+            ["XXL","46","31","21"],
+            ["3XL","48","32","22"]
+        ]
+    }
+},
         {
             id: 2, name: "Samsung Galaxy S24 Ultra 5G (256GB) - Titanium Gray",
             brand: "Samsung", category: "electronics", subcategory: "mobile",
