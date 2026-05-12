@@ -366,24 +366,43 @@ function getProducts() {
         },
         {
             id: 10,
-            name: "Prestige Iris 750 Watt Mixer Grinder - 3 Jars",
-            brand: "Prestige",
-            category: "home",
-            subcategory: "appliance",
-            price: 3299,
-            discount: 30,
+            name: "Men Solid Polo Neck Pure Cotton Purple T-Shirt",
+            brand: "LOUIS PHILIPPE",
+            category: "fashion",
+            subcategory: "tshirt",
+            price: 129,
+            discount: 90,
             rating: 4.3,
-            reviews: 12345,
-            image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+            reviews: 2345,
+            image: "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P1.webp",
             images: [
-                "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1585515320310-259814833e62?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=600&h=600&fit=crop"
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P1.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P2.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P3.webp"
             ],
-            description: "750-watt powerful motor mixer grinder with 3 stainless steel jars. Features overload protection and ergonomic design.",
-            sizes: null,
-            sizeType: null
+            description: "Upgrade your casual fashion collection with this premium Green Solid Polo T-Shirt from Louis Philippe, expertly designed for men who appreciate sophisticated style, premium comfort, and modern everyday fashion. Crafted from high-quality 100% cotton fabric, this stylish polo t-shirt delivers exceptional softness, breathable comfort, and long-lasting durability, making it an ideal choice for casual wear, office casual styling, weekend outings, travel, smart-casual events, and modern lifestyle fashion.",
+          sizes: [
+                { label: "XS", value: "XS", inStock: true },
+                { label: "S", value: "S", inStock: true },
+                { label: "M", value: "M", inStock: true },
+                { label: "L", value: "L", inStock: true },
+                { label: "XL", value: "XL", inStock: true },
+                { label: "XXL", value: "XXL", inStock: false },
+                { label: "3XL", value: "3XL", inStock: true }
+            ],
+            sizeType: "clothing",
+            sizeChart: {
+                headers: ["Size", "Chest (inches)", "Length (inches)", "Shoulder (inches)"],
+                rows: [
+                    ["XS", "36", "26", "16"],
+                    ["S", "38", "27", "17"],
+                    ["M", "40", "28", "18"],
+                    ["L", "42", "29", "19"],
+                    ["XL", "44", "30", "20"],
+                    ["XXL", "46", "31", "21"],
+                    ["3XL", "48", "32", "22"]
+                ]
+            }
         },
         {
             id: 11,
