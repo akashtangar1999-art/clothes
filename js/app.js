@@ -17,8 +17,8 @@ function getProducts() {
             image: "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=400&h=400&fit=crop",
             images: [
                 "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1574755393849-623942496936?w=600&h=600&fit=crop",
+                "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&h=600&fit=crop",
+                "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&h=600&fit=crop",
                 "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=600&h=600&fit=crop"
             ],
             description: "The iPhone 15 Pro Max features aerospace-grade titanium design with Ceramic Shield front that is tougher than any smartphone glass. A17 Pro chip delivers incredible performance.",
