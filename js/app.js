@@ -260,28 +260,47 @@ function getProducts() {
                 "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K20.webp",
                 "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K21.webp"
             ],
-            description: "The iconic Ray-Ban Aviator is one of the most recognized styles in the history of sunglasses. Originally designed for U.S. aviators in 1937.",
-            sizes: null,
-            sizeType: null
+            description: "Elevate your festive fashion collection with this premium Women’s Silk Blend Kurta Set, beautifully designed for modern women who appreciate luxury ethnic wear, timeless elegance, and sophisticated traditional styling. Crafted from high-quality silk blend fabric, this designer ethnic outfit offers a rich texture, soft touch, lightweight comfort, and a subtle premium shine that enhances your overall appearance for every special occasion. Perfectly blending traditional craftsmanship with contemporary fashion trends, this elegant kurta set is an ideal choice for festive celebrations, wedding ceremonies, engagement parties, family functions, cultural events, office festivities, and premium ethnic gatherings.",
+            sizes: [
+                { label: "XS", value: "XS", inStock: true },
+                { label: "S", value: "S", inStock: true },
+                { label: "M", value: "M", inStock: true },
+                { label: "L", value: "L", inStock: true },
+                { label: "XL", value: "XL", inStock: true },
+                { label: "XXL", value: "XXL", inStock: false },
+                { label: "3XL", value: "3XL", inStock: true }
+            ],
+            sizeType: "clothing",
+            sizeChart: {
+                headers: ["Size", "Chest (inches)", "Length (inches)", "Shoulder (inches)"],
+                rows: [
+                    ["XS", "36", "26", "16"],
+                    ["S", "38", "27", "17"],
+                    ["M", "40", "28", "18"],
+                    ["L", "42", "29", "19"],
+                    ["XL", "44", "30", "20"],
+                    ["XXL", "46", "31", "21"],
+                    ["3XL", "48", "32", "22"]
+                ]
+            }
         },
         {
             id: 8,
-            name: "Allen Solly Mens Regular Fit Polo T-Shirt",
-            brand: "Allen Solly",
+            name: "DD's creation Women Cotton Blend Kurta Pant Attached Dupatta Set",
+            brand: "DD's creation",
             category: "fashion",
             subcategory: "clothing",
-            price: 1499,
-            discount: 50,
-            rating: 4.1,
-            reviews: 45678,
-            image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop",
+            price: 139,
+            discount: 90,
+            rating: 4.4,
+            reviews: 1678,
+            image: "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K22.webp",
             images: [
-                "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=600&h=600&fit=crop"
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K22.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K23.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K24.webp"
             ],
-            description: "Classic polo t-shirt with regular fit made from premium cotton for maximum comfort. Perfect for casual and semi-formal occasions.",
+            description: "Designed for women seeking premium ethnic fashion online, wedding-ready kurta sets, festive Indian wear, designer silk blend suits, embroidered organza dupattas, and elegant traditional outfits, this versatile ensemble combines affordability with luxury-inspired fashion appeal. The breathable and skin-friendly fabric ensures all-day comfort while maintaining a graceful silhouette suitable for every season. Whether styled with statement jewelry, heels, handbags, bangles, or traditional accessories, this sophisticated ethnic outfit creates a refined and confident fashion statement for every celebration.",
             sizes: [
                 { label: "XS", value: "XS", inStock: true },
                 { label: "S", value: "S", inStock: true },
@@ -307,24 +326,43 @@ function getProducts() {
         },
         {
             id: 9,
-            name: "IKEA KALLAX Shelf Unit - White (4x2)",
-            brand: "IKEA",
-            category: "home",
-            subcategory: "furniture",
-            price: 8990,
-            discount: 15,
+            name: "his&her Women Pure Cotton Kurta Pant Dupatta Set",
+            brand: "his&her",
+            category: "fashion",
+            subcategory: "kurti",
+            price: 139,
+            discount: 90,
             rating: 4.4,
-            reviews: 7654,
-            image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&h=400&fit=crop",
+            reviews: 654,
+            image: "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K25.webp",
             images: [
-                "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=600&h=600&fit=crop"
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K25.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K26.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K27.webp"
             ],
-            description: "Versatile shelf unit that can be placed on the floor or mounted on the wall. Smooth surfaces make it easy to clean.",
-            sizes: null,
-            sizeType: null
+            description: "The beautifully tailored silk blend kurta showcases refined detailing and graceful ethnic styling that creates a polished and luxurious designer-inspired look. Paired with a matching silk blend bottom, the outfit delivers superior comfort, flattering structure, and ease of movement, making it suitable for extended wear throughout festive events and celebrations. Completing the ensemble is a stunning lightweight organza dupatta adorned with delicate embroidery work that adds sophistication, elegance, and a touch of modern glamour to the overall outfit.",
+           sizes: [
+                { label: "XS", value: "XS", inStock: true },
+                { label: "S", value: "S", inStock: true },
+                { label: "M", value: "M", inStock: true },
+                { label: "L", value: "L", inStock: true },
+                { label: "XL", value: "XL", inStock: true },
+                { label: "XXL", value: "XXL", inStock: false },
+                { label: "3XL", value: "3XL", inStock: true }
+            ],
+            sizeType: "clothing",
+            sizeChart: {
+                headers: ["Size", "Chest (inches)", "Length (inches)", "Shoulder (inches)"],
+                rows: [
+                    ["XS", "36", "26", "16"],
+                    ["S", "38", "27", "17"],
+                    ["M", "40", "28", "18"],
+                    ["L", "42", "29", "19"],
+                    ["XL", "44", "30", "20"],
+                    ["XXL", "46", "31", "21"],
+                    ["3XL", "48", "32", "22"]
+                ]
+            }
         },
         {
             id: 10,
