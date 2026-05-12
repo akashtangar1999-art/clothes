@@ -100,9 +100,29 @@ function getProducts() {
                 "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K08.webp",
                 "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K09.webp"
             ],
-            description: "Industry-leading noise cancellation with Auto NC Optimizer. Exceptionally comfortable and lightweight with 30 hours of battery life.",
-            sizes: null,
-            sizeType: null
+            description: "Enhance your ethnic fashion collection with this premium designer kurta set from the elegant women’s fashion brand Skylee, thoughtfully crafted for modern women who appreciate traditional artistry, luxurious comfort, and contemporary style. This beautifully designed Bandhani printed ethnic wear set combines timeless Indian craftsmanship with modern fashion trends, making it a perfect choice for festive celebrations, office wear, family gatherings, wedding functions, casual outings, and seasonal fashion styling.",
+        sizes: [
+                { label: "XS", value: "XS", inStock: true },
+                { label: "S", value: "S", inStock: true },
+                { label: "M", value: "M", inStock: true },
+                { label: "L", value: "L", inStock: true },
+                { label: "XL", value: "XL", inStock: true },
+                { label: "XXL", value: "XXL", inStock: false },
+                { label: "3XL", value: "3XL", inStock: true }
+            ],
+            sizeType: "clothing",
+            sizeChart: {
+                headers: ["Size", "Chest (inches)", "Length (inches)", "Shoulder (inches)"],
+                rows: [
+                    ["XS", "36", "26", "16"],
+                    ["S", "38", "27", "17"],
+                    ["M", "40", "28", "18"],
+                    ["L", "42", "29", "19"],
+                    ["XL", "44", "30", "20"],
+                    ["XXL", "46", "31", "21"],
+                    ["3XL", "48", "32", "22"]
+                ]
+            }
         },
         {
             id: 4,
