@@ -21,7 +21,7 @@ function getProducts() {
                 "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&h=600&fit=crop",
                 "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=600&h=600&fit=crop"
             ],
-            description: "The iPhone 15 Pro Max features aerospace-grade titanium design with Ceramic Shield front that is tougher than any smartphone glass. A17 Pro chip delivers incredible performance.",
+            description: "Upgrade your ethnic wardrobe with this premium women’s cotton kurta and pant set, designed to deliver unmatched comfort, elegant fashion, and modern versatility for every occasion. Made from high-quality breathable 100% cotton fabric, this stylish outfit offers a lightweight and skin-friendly feel, making it perfect for daily wear, office wear, festive gatherings, travel, and casual outings. The beautifully crafted V-neck kurta features intricate embroidery detailing on the sleeves and neckline, adding a luxurious designer-inspired touch that enhances its sophisticated appearance. Paired with comfortable straight-fit cotton pants, this coordinated outfit creates a polished and graceful look suitable for women who value both fashion and comfort.",
             sizes: null,
             sizeType: null
         },
