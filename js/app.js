@@ -406,104 +406,179 @@ function getProducts() {
         },
         {
             id: 11,
-            name: "The Body Shop Tea Tree Skin Clearing Facial Wash",
-            brand: "The Body Shop",
-            category: "beauty",
-            subcategory: "skincare",
-            price: 695,
-            discount: 20,
+            name: "LOUIS Men Solid Polo Neck Pure Cotton Dark Green T-Shirt",
+            brand: "LOUIS PHILIPPE",
+            category: "fashion",
+            subcategory: "tshirt",
+            price: 145,
+            discount: 90,
             rating: 4.4,
-            reviews: 9876,
-            image: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=400&h=400&fit=crop",
+            reviews: 1876,
+            image: "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P4.webp",
             images: [
-                "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=600&h=600&fit=crop"
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P4.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P5.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P6.webp"
             ],
-            description: "A refreshing gel facial wash with Community Trade tea tree oil from Kenya. Helps remove impurities and excess oil.",
-            sizes: null,
-            sizeType: null
+            description: "Designed with a refined polo neck and stylish half sleeves, this slim-fit t-shirt creates a polished and contemporary silhouette that enhances your overall appearance while ensuring superior comfort throughout the day. The premium knitted cotton fabric offers excellent airflow and moisture absorption, keeping you cool, fresh, and comfortable in every season. Its elegant green solid color adds a versatile and sophisticated touch, allowing effortless pairing with jeans, chinos, trousers, jackets, sneakers, and smart accessories for a complete modern fashion statement.",
+           sizes: [
+                { label: "XS", value: "XS", inStock: true },
+                { label: "S", value: "S", inStock: true },
+                { label: "M", value: "M", inStock: true },
+                { label: "L", value: "L", inStock: true },
+                { label: "XL", value: "XL", inStock: true },
+                { label: "XXL", value: "XXL", inStock: false },
+                { label: "3XL", value: "3XL", inStock: true }
+            ],
+            sizeType: "clothing",
+            sizeChart: {
+                headers: ["Size", "Chest (inches)", "Length (inches)", "Shoulder (inches)"],
+                rows: [
+                    ["XS", "36", "26", "16"],
+                    ["S", "38", "27", "17"],
+                    ["M", "40", "28", "18"],
+                    ["L", "42", "29", "19"],
+                    ["XL", "44", "30", "20"],
+                    ["XXL", "46", "31", "21"],
+                    ["3XL", "48", "32", "22"]
+                ]
+            }
         },
         {
             id: 12,
-            name: "Yonex Badminton Racket Astrox 88D Pro",
-            brand: "Yonex",
-            category: "sports",
-            subcategory: "badminton",
-            price: 15990,
-            discount: 18,
+            name: "Alan Jones Men Striped Polo Neck Cotton Blend Black T-Shirt",
+            brand: "Alan Jones",
+            category: "fashion",
+            subcategory: "tshirt",
+            price: 159,
+            discount: 90,
             rating: 4.6,
-            reviews: 3456,
-            image: "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=400&h=400&fit=crop",
+            reviews: 356,
+            image: "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P7.webp",
             images: [
-                "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1599058917765-a780eda07a3e?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P7.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P8.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P9.webp"
             ],
-            description: "Professional-grade badminton racket with Rotational Generator System for steep attack angles. Isometric frame shape.",
-            sizes: null,
-            sizeType: null
+            description: "Perfect for men searching for premium polo t-shirts online, branded cotton apparel, designer casual wear, slim-fit men’s fashion, luxury everyday clothing, and modern smart-casual outfits, this Louis Philippe Jeans t-shirt combines timeless elegance with practical comfort. The durable stitching, premium fabric quality, and minimalistic designer styling make it a valuable addition to every modern wardrobe.",
+           sizes: [
+                { label: "XS", value: "XS", inStock: true },
+                { label: "S", value: "S", inStock: true },
+                { label: "M", value: "M", inStock: true },
+                { label: "L", value: "L", inStock: true },
+                { label: "XL", value: "XL", inStock: true },
+                { label: "XXL", value: "XXL", inStock: false },
+                { label: "3XL", value: "3XL", inStock: true }
+            ],
+            sizeType: "clothing",
+            sizeChart: {
+                headers: ["Size", "Chest (inches)", "Length (inches)", "Shoulder (inches)"],
+                rows: [
+                    ["XS", "36", "26", "16"],
+                    ["S", "38", "27", "17"],
+                    ["M", "40", "28", "18"],
+                    ["L", "42", "29", "19"],
+                    ["XL", "44", "30", "20"],
+                    ["XXL", "46", "31", "21"],
+                    ["3XL", "48", "32", "22"]
+                ]
+            }
         },
         {
             id: 13,
-            name: "Atomic Habits by James Clear (Paperback)",
-            brand: "Penguin",
-            category: "books",
-            subcategory: "selfhelp",
-            price: 499,
-            discount: 35,
+            name: "KNOTRIX Men Printed Polo Neck Reversible Cotton Blend Blue T-Shirt",
+            brand: "KNOTRIX",
+            category: "fashion",
+            subcategory: "tshirt",
+            price: 139,
+            discount: 90,
             rating: 4.8,
-            reviews: 56789,
-            image: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400&h=400&fit=crop",
+            reviews: 1789,
+            image: "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P10.webp",
             images: [
-                "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&h=600&fit=crop"
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P10.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P11.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P12.webp"
             ],
-            description: "No matter your goals, Atomic Habits offers a proven framework for improving every day. Tiny changes deliver remarkable results.",
-            sizes: null,
-            sizeType: null
+            description: "Whether you’re dressing for office meetings, evening outings, casual gatherings, travel styling, or everyday fashion wear, this premium cotton polo t-shirt delivers a sophisticated blend of style, confidence, and versatility. Ideal for fashion-conscious men seeking affordable luxury clothing, branded men’s fashion, and high-quality cotton apparel, this elegant slim-fit polo t-shirt ensures you always maintain a refined and effortlessly stylish appearance.",
+            sizes: [
+                { label: "XS", value: "XS", inStock: true },
+                { label: "S", value: "S", inStock: true },
+                { label: "M", value: "M", inStock: true },
+                { label: "L", value: "L", inStock: true },
+                { label: "XL", value: "XL", inStock: true },
+                { label: "XXL", value: "XXL", inStock: false },
+                { label: "3XL", value: "3XL", inStock: true }
+            ],
+            sizeType: "clothing",
+            sizeChart: {
+                headers: ["Size", "Chest (inches)", "Length (inches)", "Shoulder (inches)"],
+                rows: [
+                    ["XS", "36", "26", "16"],
+                    ["S", "38", "27", "17"],
+                    ["M", "40", "28", "18"],
+                    ["L", "42", "29", "19"],
+                    ["XL", "44", "30", "20"],
+                    ["XXL", "46", "31", "21"],
+                    ["3XL", "48", "32", "22"]
+                ]
+            }
         },
         {
             id: 14,
-            name: "Samsung 55-inch Crystal 4K UHD Smart TV",
-            brand: "Samsung",
-            category: "electronics",
-            subcategory: "tv",
-            price: 42990,
-            discount: 35,
-            rating: 4.4,
-            reviews: 11234,
-            image: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=400&h=400&fit=crop",
+            name: "Dollar Pack of 2 Men Solid Polo Neck Polyester Multicolor T-Shirt",
+            brand: "Dollar",
+            category: "fashion",
+            subcategory: "tshirt",
+            price: 139,
+            discount: 90,
+            rating: 4.1,
+            reviews: 1134,
+            image: "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P13.webp",
             images: [
-                "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1601944179066-29786cb9d32a?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1509281373149-e957c6296406?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1558888401-3cc1de77652d?w=600&h=600&fit=crop"
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P13.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P14.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P15.webp"
             ],
-            description: "Experience stunning 4K resolution with Crystal Processor 4K. Smart TV with built-in voice assistants and all streaming apps.",
-            sizes: null,
-            sizeType: null
+            description: "Enhance your modern wardrobe with this premium Polyester Zipper T-Shirt, thoughtfully designed for men who value contemporary fashion, everyday comfort, and versatile smart-casual styling. Crafted from high-quality performance polyester fabric, this stylish zipper t-shirt delivers a lightweight feel, smooth texture, moisture-wicking comfort, and excellent breathability, making it perfect for daily wear, gym sessions, travel, office casual outfits, outdoor activities, and active lifestyle fashion.",
+             sizes: [
+                { label: "XS", value: "XS", inStock: true },
+                { label: "S", value: "S", inStock: true },
+                { label: "M", value: "M", inStock: true },
+                { label: "L", value: "L", inStock: true },
+                { label: "XL", value: "XL", inStock: true },
+                { label: "XXL", value: "XXL", inStock: false },
+                { label: "3XL", value: "3XL", inStock: true }
+            ],
+            sizeType: "clothing",
+            sizeChart: {
+                headers: ["Size", "Chest (inches)", "Length (inches)", "Shoulder (inches)"],
+                rows: [
+                    ["XS", "36", "26", "16"],
+                    ["S", "38", "27", "17"],
+                    ["M", "40", "28", "18"],
+                    ["L", "42", "29", "19"],
+                    ["XL", "44", "30", "20"],
+                    ["XXL", "46", "31", "21"],
+                    ["3XL", "48", "32", "22"]
+                ]
+            }
         },
         {
             id: 15,
-            name: "boAt Rockerz 550 Bluetooth Wireless Headphone",
-            brand: "boAt",
-            category: "electronics",
-            subcategory: "audio",
-            price: 1799,
-            discount: 55,
-            rating: 4.1,
-            reviews: 78901,
-            image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop",
+            name: "Dollar Men Printed Round Neck Cotton Blend Navy Blue T-Shirt",
+            brand: "Dollar",
+            category: "fashion",
+            subcategory: "tshirt",
+            price: 139,
+            discount: 90,
+            rating: 4.2,
+            reviews: 7901,
+            image: "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P16.webp",
             images: [
-                "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1491927570842-0261e477d937?w=600&h=600&fit=crop"
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P16.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P17.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P18.webp"
             ],
             description: "Immersive 50mm drivers with 20 hours of battery life. Dual connectivity modes with Bluetooth v5.0 and AUX.",
             sizes: null,
