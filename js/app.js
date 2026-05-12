@@ -586,82 +586,101 @@ function getProducts() {
         },
         {
             id: 16,
-            name: "Puma Mens Softride Enzo Running Shoes - Black",
-            brand: "Puma",
+            name: "Dollar Men Printed Round Neck Cotton Blend T-Shirt",
+            brand: "Dollar",
             category: "fashion",
-            subcategory: "shoes",
-            price: 3999,
-            discount: 45,
-            rating: 4.2,
-            reviews: 22345,
-            image: "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=400&h=400&fit=crop",
+            subcategory: "tshirt",
+            price: 139,
+            discount: 90,
+            rating: 4.4,
+            reviews: 1445,
+            image: "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P19.webp",
             images: [
-                "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&h=600&fit=crop"
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P19.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P20.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P21.webp"
             ],
-            description: "Lightweight sports running shoes with SoftFoam+ sockliner for superior comfort. Durable rubber outsole for excellent grip.",
-            sizes: [
-                { label: "UK 6", value: "UK6", inStock: true },
-                { label: "UK 7", value: "UK7", inStock: true },
-                { label: "UK 8", value: "UK8", inStock: true },
-                { label: "UK 9", value: "UK9", inStock: false },
-                { label: "UK 10", value: "UK10", inStock: true },
-                { label: "UK 11", value: "UK11", inStock: true }
+            description: "The sleek front zipper design adds a sophisticated modern touch while providing adjustable comfort and effortless wearability. Its premium quick-dry polyester material helps maintain freshness throughout the day by improving airflow and reducing sweat retention, making it an ideal choice for warm weather, workouts, and long hours of wear. Designed with wrinkle-resistant technology and durable stitching, this t-shirt retains its shape, texture, and vibrant appearance even after repeated washing, ensuring long-lasting performance and premium quality.",
+               sizes: [
+                { label: "XS", value: "XS", inStock: true },
+                { label: "S", value: "S", inStock: true },
+                { label: "M", value: "M", inStock: true },
+                { label: "L", value: "L", inStock: true },
+                { label: "XL", value: "XL", inStock: true },
+                { label: "XXL", value: "XXL", inStock: false },
+                { label: "3XL", value: "3XL", inStock: true }
             ],
-            sizeType: "shoe",
+            sizeType: "clothing",
             sizeChart: {
-                headers: ["UK Size", "US Size", "EU Size", "Foot Length (cm)"],
+                headers: ["Size", "Chest (inches)", "Length (inches)", "Shoulder (inches)"],
                 rows: [
-                    ["UK 6", "US 7", "EU 39", "25.0"],
-                    ["UK 7", "US 8", "EU 40.5", "25.5"],
-                    ["UK 8", "US 9", "EU 42", "26.5"],
-                    ["UK 9", "US 10", "EU 43", "27.0"],
-                    ["UK 10", "US 11", "EU 44.5", "28.0"],
-                    ["UK 11", "US 12", "EU 46", "28.5"]
+                    ["XS", "36", "26", "16"],
+                    ["S", "38", "27", "17"],
+                    ["M", "40", "28", "18"],
+                    ["L", "42", "29", "19"],
+                    ["XL", "44", "30", "20"],
+                    ["XXL", "46", "31", "21"],
+                    ["3XL", "48", "32", "22"]
                 ]
             }
         },
         {
             id: 17,
-            name: "Himalaya Purifying Neem Face Wash - 200ml",
-            brand: "Himalaya",
-            category: "beauty",
-            subcategory: "skincare",
-            price: 199,
+            name: "HUNTER OUTFITS Men Solid Round Neck Polyester Black T-Shirt",
+            brand: "HUNTER OUTFITS",
+            category: "fashion",
+            subcategory: "tshirt",
+            price: 139,
             discount: 10,
             rating: 4.3,
-            reviews: 89012,
-            image: "https://images.unsplash.com/photo-1570194065650-d99fb4a38154?w=400&h=400&fit=crop",
+            reviews: 1812,
+            image: "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P22.webp",
             images: [
-                "https://images.unsplash.com/photo-1570194065650-d99fb4a38154?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600&h=600&fit=crop"
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P22.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P23.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P24.webp"
             ],
             description: "A soap-free herbal formulation that cleans impurities and helps clear pimples. Contains Neem and Turmeric.",
-            sizes: null,
-            sizeType: null
+                sizes: [
+                { label: "XS", value: "XS", inStock: true },
+                { label: "S", value: "S", inStock: true },
+                { label: "M", value: "M", inStock: true },
+                { label: "L", value: "L", inStock: true },
+                { label: "XL", value: "XL", inStock: true },
+                { label: "XXL", value: "XXL", inStock: false },
+                { label: "3XL", value: "3XL", inStock: true }
+            ],
+            sizeType: "clothing",
+            sizeChart: {
+                headers: ["Size", "Chest (inches)", "Length (inches)", "Shoulder (inches)"],
+                rows: [
+                    ["XS", "36", "26", "16"],
+                    ["S", "38", "27", "17"],
+                    ["M", "40", "28", "18"],
+                    ["L", "42", "29", "19"],
+                    ["XL", "44", "30", "20"],
+                    ["XXL", "46", "31", "21"],
+                    ["3XL", "48", "32", "22"]
+                ]
+            }
         },
         {
             id: 18,
-            name: "H and M Womens Oversized Hoodie - Dusty Pink",
-            brand: "H and M",
+            name: "V-MART Men Graphic Print Round Neck Cotton Blend Black T-Shirt",
+            brand: "V-MART",
             category: "fashion",
-            subcategory: "clothing",
-            price: 1999,
-            discount: 30,
+            subcategory: "tshirt",
+            price: 139,
+            discount: 90,
             rating: 4.3,
-            reviews: 12890,
-            image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400&h=400&fit=crop",
+            reviews: 1290,
+            image: "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P25.webp",
             images: [
-                "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1620799139507-2a76f79a2f4d?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=600&h=600&fit=crop"
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P25.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P26.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P27.webp"
             ],
-            description: "Relaxed-fit hoodie in soft sweatshirt fabric with a lined drawstring hood, kangaroo pocket, and ribbed cuffs and hem.",
+            description: "Perfect for men searching for branded casual t-shirts online, performance activewear, smart-casual fashion, lightweight travel clothing, modern zipper t-shirts, premium polyester apparel, and stylish everyday wear, this versatile outfit combines practicality with contemporary elegance. The clean and modern silhouette pairs effortlessly with jeans, joggers, shorts, chinos, or trousers, allowing you to create multiple fashionable looks suitable for casual outings, fitness routines, airport styling, weekend gatherings, and relaxed office environments.",
             sizes: [
                 { label: "XS", value: "XS", inStock: true },
                 { label: "S", value: "S", inStock: true },
@@ -683,24 +702,39 @@ function getProducts() {
         },
         {
             id: 19,
-            name: "Canon EOS 200D II DSLR Camera with 18-55mm Lens",
-            brand: "Canon",
-            category: "electronics",
-            subcategory: "camera",
-            price: 52990,
-            discount: 18,
-            rating: 4.5,
-            reviews: 4567,
-            image: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400&h=400&fit=crop",
+            name: "KASPY Men Striped Round Neck Polyester Grey T-Shirt",
+            brand: "KASPY",
+            category: "fashion",
+            subcategory: "tshirt",
+            price: 139,
+            discount: 90,
+            rating: 4.3,
+            reviews: 2567,
+            image: "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P28.webp",
             images: [
-                "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1612432895395-90e55c9e9f87?w=600&h=600&fit=crop"
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P28.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P29.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P30.webp"
             ],
-            description: "Compact and lightweight DSLR with 24.1MP APS-C sensor. Dual Pixel CMOS AF for fast autofocus. 4K video recording.",
-            sizes: null,
-            sizeType: null
+            description: "Ideal for modern men seeking affordable premium fashion, breathable activewear, wrinkle-free clothing, and stylish athletic-inspired outfits, this polyester zipper t-shirt offers the perfect balance of comfort, durability, and trend-forward design. Whether worn for sports activities, urban streetwear styling, travel comfort, or daily casual fashion, this premium t-shirt delivers confidence, flexibility, and sophisticated modern appeal for every occasion.",
+           sizes: [
+                { label: "XS", value: "XS", inStock: true },
+                { label: "S", value: "S", inStock: true },
+                { label: "M", value: "M", inStock: true },
+                { label: "L", value: "L", inStock: true },
+                { label: "XL", value: "XL", inStock: false }
+            ],
+            sizeType: "clothing",
+            sizeChart: {
+                headers: ["Size", "Chest (inches)", "Length (inches)", "Sleeve (inches)"],
+                rows: [
+                    ["XS", "38", "25", "23"],
+                    ["S", "40", "26", "24"],
+                    ["M", "42", "27", "25"],
+                    ["L", "44", "28", "26"],
+                    ["XL", "46", "29", "27"]
+                ]
+            }
         },
         {
             id: 20,
