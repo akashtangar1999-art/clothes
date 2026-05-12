@@ -206,42 +206,41 @@ function getProducts() {
         },
         {
             id: 6,
-            name: "Levis Mens 511 Slim Fit Jeans - Dark Indigo",
-            brand: "Levis",
+            name: "Dimonsher Women Khadi Cotton Kurta Palazzo Set",
+            brand: "Dimonsher",
             category: "fashion",
             subcategory: "clothing",
-            price: 2999,
-            discount: 40,
-            rating: 4.2,
-            reviews: 34567,
-            image: "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=400&fit=crop",
+            price: 139,
+            discount: 90,
+            rating: 4.4,
+            reviews: 3567,
+            image: "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K16.webp",
             images: [
-                "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1475178626620-a4d074967452?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1582552938357-32b906df40cb?w=600&h=600&fit=crop"
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K16.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K17.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K18.webp"
             ],
-            description: "Levis 511 Slim Fit Jeans sit below the waist with a slim fit from hip to ankle. Classic five-pocket styling with premium stretch denim.",
-            sizes: [
-                { label: "28", value: "28", inStock: true },
-                { label: "30", value: "30", inStock: true },
-                { label: "32", value: "32", inStock: true },
-                { label: "34", value: "34", inStock: true },
-                { label: "36", value: "36", inStock: false },
-                { label: "38", value: "38", inStock: true },
-                { label: "40", value: "40", inStock: true }
+            description: "Transform your ethnic fashion collection with the premium Rust Orange Khadi Cotton Kurta Set from Dimonsher, thoughtfully designed for women who seek a perfect combination of elegance, comfort, and timeless Indian craftsmanship. Crafted from high-quality breathable khadi cotton fabric, this sophisticated ethnic wear set offers exceptional softness, lightweight comfort, and superior airflow, making it an ideal choice for everyday wear, office fashion, festive occasions, family gatherings, and seasonal celebrations.",
+          sizes: [
+                { label: "XS", value: "XS", inStock: true },
+                { label: "S", value: "S", inStock: true },
+                { label: "M", value: "M", inStock: true },
+                { label: "L", value: "L", inStock: true },
+                { label: "XL", value: "XL", inStock: true },
+                { label: "XXL", value: "XXL", inStock: false },
+                { label: "3XL", value: "3XL", inStock: true }
             ],
-            sizeType: "waist",
+            sizeType: "clothing",
             sizeChart: {
-                headers: ["Waist Size", "Waist (inches)", "Hip (inches)", "Length (inches)"],
+                headers: ["Size", "Chest (inches)", "Length (inches)", "Shoulder (inches)"],
                 rows: [
-                    ["28", "28-29", "35-36", "30"],
-                    ["30", "30-31", "37-38", "30"],
-                    ["32", "32-33", "39-40", "32"],
-                    ["34", "34-35", "41-42", "32"],
-                    ["36", "36-37", "43-44", "32"],
-                    ["38", "38-39", "45-46", "32"],
-                    ["40", "40-41", "47-48", "34"]
+                    ["XS", "36", "26", "16"],
+                    ["S", "38", "27", "17"],
+                    ["M", "40", "28", "18"],
+                    ["L", "42", "29", "19"],
+                    ["XL", "44", "30", "20"],
+                    ["XXL", "46", "31", "21"],
+                    ["3XL", "48", "32", "22"]
                 ]
             }
         },
