@@ -1,3 +1,7 @@
+// =========================================
+// FlipShop - Complete E-Commerce App Logic
+// =========================================
+
 function getProducts() {
     return [
         {
@@ -10,7 +14,6 @@ function getProducts() {
             discount: 10,
             rating: 4.6,
             reviews: 12543,
-            // ✅ ADD IMAGES ARRAY HERE - First image is the main/thumbnail image
             image: "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=400&h=400&fit=crop",
             images: [
                 "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&h=600&fit=crop",
@@ -87,7 +90,7 @@ function getProducts() {
         },
         {
             id: 5,
-            name: "Nike Air Max 270 React Running Shoes - Men's",
+            name: "Nike Air Max 270 React Running Shoes - Mens",
             brand: "Nike",
             category: "fashion",
             subcategory: "shoes",
@@ -102,7 +105,7 @@ function getProducts() {
                 "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&h=600&fit=crop",
                 "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=600&h=600&fit=crop"
             ],
-            description: "The Nike Air Max 270 React combines two of Nike biggest innovations for an unbelievably soft and smooth ride. Lightweight and durable for all-day comfort.",
+            description: "The Nike Air Max 270 React combines two of Nikes biggest innovations for an unbelievably soft and smooth ride. Lightweight and durable for all-day comfort.",
             sizes: [
                 { label: "UK 6", value: "UK6", inStock: true },
                 { label: "UK 7", value: "UK7", inStock: true },
@@ -115,13 +118,21 @@ function getProducts() {
             sizeType: "shoe",
             sizeChart: {
                 headers: ["UK Size", "US Size", "EU Size", "Foot Length (cm)"],
-                rows: [["UK 6","US 7","EU 40","25.0"],["UK 7","US 8","EU 41","25.5"],["UK 8","US 9","EU 42","26.5"],["UK 9","US 10","EU 43","27.0"],["UK 10","US 11","EU 44","28.0"],["UK 11","US 12","EU 45","28.5"],["UK 12","US 13","EU 46","29.5"]]
+                rows: [
+                    ["UK 6", "US 7", "EU 40", "25.0"],
+                    ["UK 7", "US 8", "EU 41", "25.5"],
+                    ["UK 8", "US 9", "EU 42", "26.5"],
+                    ["UK 9", "US 10", "EU 43", "27.0"],
+                    ["UK 10", "US 11", "EU 44", "28.0"],
+                    ["UK 11", "US 12", "EU 45", "28.5"],
+                    ["UK 12", "US 13", "EU 46", "29.5"]
+                ]
             }
         },
         {
             id: 6,
-            name: "Levi's Men's 511 Slim Fit Jeans - Dark Indigo",
-            brand: "Levi's",
+            name: "Levis Mens 511 Slim Fit Jeans - Dark Indigo",
+            brand: "Levis",
             category: "fashion",
             subcategory: "clothing",
             price: 2999,
@@ -135,7 +146,7 @@ function getProducts() {
                 "https://images.unsplash.com/photo-1475178626620-a4d074967452?w=600&h=600&fit=crop",
                 "https://images.unsplash.com/photo-1582552938357-32b906df40cb?w=600&h=600&fit=crop"
             ],
-            description: "Levi's 511 Slim Fit Jeans sit below the waist with a slim fit from hip to ankle. Classic five-pocket styling with premium stretch denim.",
+            description: "Levis 511 Slim Fit Jeans sit below the waist with a slim fit from hip to ankle. Classic five-pocket styling with premium stretch denim.",
             sizes: [
                 { label: "28", value: "28", inStock: true },
                 { label: "30", value: "30", inStock: true },
@@ -148,7 +159,15 @@ function getProducts() {
             sizeType: "waist",
             sizeChart: {
                 headers: ["Waist Size", "Waist (inches)", "Hip (inches)", "Length (inches)"],
-                rows: [["28","28-29","35-36","30"],["30","30-31","37-38","30"],["32","32-33","39-40","32"],["34","34-35","41-42","32"],["36","36-37","43-44","32"],["38","38-39","45-46","32"],["40","40-41","47-48","34"]]
+                rows: [
+                    ["28", "28-29", "35-36", "30"],
+                    ["30", "30-31", "37-38", "30"],
+                    ["32", "32-33", "39-40", "32"],
+                    ["34", "34-35", "41-42", "32"],
+                    ["36", "36-37", "43-44", "32"],
+                    ["38", "38-39", "45-46", "32"],
+                    ["40", "40-41", "47-48", "34"]
+                ]
             }
         },
         {
@@ -174,7 +193,7 @@ function getProducts() {
         },
         {
             id: 8,
-            name: "Allen Solly Men's Regular Fit Polo T-Shirt",
+            name: "Allen Solly Mens Regular Fit Polo T-Shirt",
             brand: "Allen Solly",
             category: "fashion",
             subcategory: "clothing",
@@ -202,7 +221,15 @@ function getProducts() {
             sizeType: "clothing",
             sizeChart: {
                 headers: ["Size", "Chest (inches)", "Length (inches)", "Shoulder (inches)"],
-                rows: [["XS","36","26","16"],["S","38","27","17"],["M","40","28","18"],["L","42","29","19"],["XL","44","30","20"],["XXL","46","31","21"],["3XL","48","32","22"]]
+                rows: [
+                    ["XS", "36", "26", "16"],
+                    ["S", "38", "27", "17"],
+                    ["M", "40", "28", "18"],
+                    ["L", "42", "29", "19"],
+                    ["XL", "44", "30", "20"],
+                    ["XXL", "46", "31", "21"],
+                    ["3XL", "48", "32", "22"]
+                ]
             }
         },
         {
@@ -283,7 +310,7 @@ function getProducts() {
                 "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=600&h=600&fit=crop",
                 "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?w=600&h=600&fit=crop",
                 "https://images.unsplash.com/photo-1599058917765-a780eda07a3e?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1617083934555-ac7a0e2f4f1e?w=600&h=600&fit=crop"
+                "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=600&fit=crop"
             ],
             description: "Professional-grade badminton racket with Rotational Generator System for steep attack angles. Isometric frame shape.",
             sizes: null,
@@ -354,7 +381,7 @@ function getProducts() {
         },
         {
             id: 16,
-            name: "Puma Men's Softride Enzo Running Shoes - Black",
+            name: "Puma Mens Softride Enzo Running Shoes - Black",
             brand: "Puma",
             category: "fashion",
             subcategory: "shoes",
@@ -381,7 +408,14 @@ function getProducts() {
             sizeType: "shoe",
             sizeChart: {
                 headers: ["UK Size", "US Size", "EU Size", "Foot Length (cm)"],
-                rows: [["UK 6","US 7","EU 39","25.0"],["UK 7","US 8","EU 40.5","25.5"],["UK 8","US 9","EU 42","26.5"],["UK 9","US 10","EU 43","27.0"],["UK 10","US 11","EU 44.5","28.0"],["UK 11","US 12","EU 46","28.5"]]
+                rows: [
+                    ["UK 6", "US 7", "EU 39", "25.0"],
+                    ["UK 7", "US 8", "EU 40.5", "25.5"],
+                    ["UK 8", "US 9", "EU 42", "26.5"],
+                    ["UK 9", "US 10", "EU 43", "27.0"],
+                    ["UK 10", "US 11", "EU 44.5", "28.0"],
+                    ["UK 11", "US 12", "EU 46", "28.5"]
+                ]
             }
         },
         {
@@ -407,8 +441,8 @@ function getProducts() {
         },
         {
             id: 18,
-            name: "H&M Women's Oversized Hoodie - Dusty Pink",
-            brand: "H&M",
+            name: "H and M Womens Oversized Hoodie - Dusty Pink",
+            brand: "H and M",
             category: "fashion",
             subcategory: "clothing",
             price: 1999,
@@ -433,7 +467,13 @@ function getProducts() {
             sizeType: "clothing",
             sizeChart: {
                 headers: ["Size", "Chest (inches)", "Length (inches)", "Sleeve (inches)"],
-                rows: [["XS","38","25","23"],["S","40","26","24"],["M","42","27","25"],["L","44","28","26"],["XL","46","29","27"]]
+                rows: [
+                    ["XS", "38", "25", "23"],
+                    ["S", "40", "26", "24"],
+                    ["M", "42", "27", "25"],
+                    ["L", "44", "28", "26"],
+                    ["XL", "46", "29", "27"]
+                ]
             }
         },
         {
@@ -459,7 +499,7 @@ function getProducts() {
         },
         {
             id: 20,
-            name: "Adidas Men's Striker II Team Backpack",
+            name: "Adidas Mens Striker II Team Backpack",
             brand: "Adidas",
             category: "sports",
             subcategory: "bags",
@@ -480,8 +520,8 @@ function getProducts() {
         },
         {
             id: 21,
-            name: "U.S. Polo Assn. Men's Slim Fit Casual Shirt",
-            brand: "U.S. Polo",
+            name: "US Polo Assn Mens Slim Fit Casual Shirt",
+            brand: "US Polo",
             category: "fashion",
             subcategory: "clothing",
             price: 1899,
@@ -506,12 +546,18 @@ function getProducts() {
             sizeType: "clothing",
             sizeChart: {
                 headers: ["Size", "Chest (inches)", "Length (inches)", "Shoulder (inches)", "Sleeve (inches)"],
-                rows: [["S (38)","38","28","16.5","24"],["M (40)","40","29","17.5","25"],["L (42)","42","30","18.5","26"],["XL (44)","44","31","19.5","27"],["XXL (46)","46","32","20.5","28"]]
+                rows: [
+                    ["S (38)", "38", "28", "16.5", "24"],
+                    ["M (40)", "40", "29", "17.5", "25"],
+                    ["L (42)", "42", "30", "18.5", "26"],
+                    ["XL (44)", "44", "31", "19.5", "27"],
+                    ["XXL (46)", "46", "32", "20.5", "28"]
+                ]
             }
         },
         {
             id: 22,
-            name: "Woodland Men's Leather Ankle Boots - Brown",
+            name: "Woodland Mens Leather Ankle Boots - Brown",
             brand: "Woodland",
             category: "fashion",
             subcategory: "shoes",
@@ -538,7 +584,14 @@ function getProducts() {
             sizeType: "shoe",
             sizeChart: {
                 headers: ["UK Size", "US Size", "EU Size", "Foot Length (cm)"],
-                rows: [["UK 6","US 7","EU 40","25.0"],["UK 7","US 8","EU 41","25.5"],["UK 8","US 9","EU 42","26.5"],["UK 9","US 10","EU 43","27.0"],["UK 10","US 11","EU 44","28.0"],["UK 11","US 12","EU 45","28.5"]]
+                rows: [
+                    ["UK 6", "US 7", "EU 40", "25.0"],
+                    ["UK 7", "US 8", "EU 41", "25.5"],
+                    ["UK 8", "US 9", "EU 42", "26.5"],
+                    ["UK 9", "US 10", "EU 43", "27.0"],
+                    ["UK 10", "US 11", "EU 44", "28.0"],
+                    ["UK 11", "US 12", "EU 45", "28.5"]
+                ]
             }
         },
         {
@@ -564,7 +617,7 @@ function getProducts() {
         },
         {
             id: 24,
-            name: "Adidas Ultraboost 22 Running Shoes - Women's White",
+            name: "Adidas Ultraboost 22 Running Shoes - Womens White",
             brand: "Adidas",
             category: "fashion",
             subcategory: "shoes",
@@ -590,8 +643,280 @@ function getProducts() {
             sizeType: "shoe",
             sizeChart: {
                 headers: ["UK Size", "US Size", "EU Size", "Foot Length (cm)"],
-                rows: [["UK 4","US 5.5","EU 36.5","22.5"],["UK 5","US 6.5","EU 38","23.5"],["UK 6","US 7.5","EU 39.5","24.5"],["UK 7","US 8.5","EU 40.5","25.5"],["UK 8","US 9.5","EU 42","26.0"]]
+                rows: [
+                    ["UK 4", "US 5.5", "EU 36.5", "22.5"],
+                    ["UK 5", "US 6.5", "EU 38", "23.5"],
+                    ["UK 6", "US 7.5", "EU 39.5", "24.5"],
+                    ["UK 7", "US 8.5", "EU 40.5", "25.5"],
+                    ["UK 8", "US 9.5", "EU 42", "26.0"]
+                ]
             }
         }
     ];
 }
+
+// === Cart Management ===
+function getCart() {
+    return JSON.parse(localStorage.getItem('flipshop_cart') || '[]');
+}
+
+function addToCart(productId, selectedSize) {
+    var product = getProducts().find(function(p) { return p.id === productId; });
+    if (!product) return false;
+    if (product.sizes && !selectedSize) {
+        showToast('Please select a size first!', 'error');
+        return false;
+    }
+    var cart = getCart();
+    var cartKey = selectedSize ? (productId + '_' + selectedSize) : ('' + productId);
+    var existing = cart.find(function(item) { return item.cartKey === cartKey; });
+    if (existing) {
+        if (existing.qty < 10) existing.qty += 1;
+    } else {
+        cart.push({ id: productId, qty: 1, size: selectedSize || null, cartKey: cartKey });
+    }
+    localStorage.setItem('flipshop_cart', JSON.stringify(cart));
+    updateCartBadge();
+    return true;
+}
+
+function removeFromCart(cartKey) {
+    var cart = getCart().filter(function(item) { return item.cartKey !== cartKey; });
+    localStorage.setItem('flipshop_cart', JSON.stringify(cart));
+    updateCartBadge();
+}
+
+function updateCartItemQty(cartKey, newQty) {
+    var cart = getCart();
+    var item = cart.find(function(i) { return i.cartKey === cartKey; });
+    if (item) {
+        if (newQty < 1) {
+            cart = cart.filter(function(i) { return i.cartKey !== cartKey; });
+            showToast('Item removed from cart');
+        } else if (newQty > 10) {
+            showToast('Maximum quantity is 10', 'error');
+            return;
+        } else {
+            item.qty = newQty;
+        }
+    }
+    localStorage.setItem('flipshop_cart', JSON.stringify(cart));
+    updateCartBadge();
+}
+
+function updateCartBadge() {
+    var cart = getCart();
+    var totalItems = cart.reduce(function(sum, item) { return sum + item.qty; }, 0);
+    var badges = document.querySelectorAll('#cartBadge, #bottomCartBadge, .mobile-cart-count');
+    badges.forEach(function(badge) {
+        if (badge) {
+            badge.textContent = totalItems;
+            badge.style.display = totalItems > 0 ? 'flex' : 'none';
+        }
+    });
+}
+
+// === Checkout Data Management ===
+function getCheckoutData() {
+    return JSON.parse(localStorage.getItem('flipshop_checkout') || '{}');
+}
+
+function saveCheckoutData(data) {
+    var existing = getCheckoutData();
+    var merged = Object.assign({}, existing, data);
+    localStorage.setItem('flipshop_checkout', JSON.stringify(merged));
+}
+
+function clearCheckoutData() {
+    localStorage.removeItem('flipshop_checkout');
+}
+
+// === Cart Calculations ===
+function getCartCalculations() {
+    var cart = getCart();
+    var products = getProducts();
+    var cartItems = [];
+    cart.forEach(function(item) {
+        var product = products.find(function(p) { return p.id === item.id; });
+        if (product) {
+            cartItems.push(Object.assign({}, product, {
+                qty: item.qty,
+                selectedSize: item.size,
+                cartKey: item.cartKey
+            }));
+        }
+    });
+    var subtotal = cartItems.reduce(function(s, i) { return s + (i.price * i.qty); }, 0);
+    var totalOriginal = cartItems.reduce(function(s, i) {
+        return s + (Math.round(i.price / (1 - i.discount / 100)) * i.qty);
+    }, 0);
+    var discount = totalOriginal - subtotal;
+    var shipping = subtotal > 499 ? 0 : 49;
+    var total = subtotal + shipping;
+    var totalQty = cart.reduce(function(s, i) { return s + i.qty; }, 0);
+    return { cartItems: cartItems, subtotal: subtotal, totalOriginal: totalOriginal, discount: discount, shipping: shipping, total: total, totalQty: totalQty };
+}
+
+// === Toast Notification ===
+function showToast(message, type) {
+    type = type || 'success';
+    var container = document.getElementById('toastContainer');
+    if (!container) return;
+    var toast = document.createElement('div');
+    toast.className = 'toast toast-' + type;
+    var icon = type === 'success' ? 'fa-check-circle' : type === 'error' ? 'fa-exclamation-circle' : 'fa-info-circle';
+    toast.innerHTML = '<i class="fas ' + icon + '"></i> ' + message;
+    container.appendChild(toast);
+    setTimeout(function() {
+        if (toast.parentNode) toast.parentNode.removeChild(toast);
+    }, 3000);
+}
+
+// === Render Product Cards ===
+function renderProductCards(containerId, products) {
+    var container = document.getElementById(containerId);
+    if (!container) return;
+
+    var html = '';
+    for (var i = 0; i < products.length; i++) {
+        var product = products[i];
+        var originalPrice = Math.round(product.price / (1 - product.discount / 100));
+        var hasSizes = product.sizes && product.sizes.length > 0;
+        var sizeLabel = '';
+        if (hasSizes) {
+            if (product.sizeType === 'shoe') {
+                var inStockCount = product.sizes.filter(function(s) { return s.inStock; }).length;
+                sizeLabel = inStockCount + ' sizes available';
+            } else {
+                var inStockSizes = product.sizes.filter(function(s) { return s.inStock; }).map(function(s) { return s.label; });
+                sizeLabel = inStockSizes.join(', ');
+            }
+        }
+
+        var addButton = '';
+        if (hasSizes) {
+            addButton = '<a href="product-detail.html?id=' + product.id + '" class="btn btn-secondary btn-sm" style="flex:1;"><i class="fas fa-ruler"></i> Select Size</a>';
+        } else {
+            addButton = '<button class="btn btn-secondary btn-sm" onclick="addToCart(' + product.id + '); showToast(\'Added to cart!\');" style="flex:1;"><i class="fas fa-cart-plus"></i> Add</button>';
+        }
+
+        html += '<div class="product-card">';
+        html += '<div class="product-image">';
+        html += '<a href="product-detail.html?id=' + product.id + '">';
+        html += '<img src="' + product.image + '" alt="' + product.name + '" loading="lazy">';
+        html += '</a>';
+        if (product.discount >= 20) {
+            html += '<span class="product-badge">' + product.discount + '% OFF</span>';
+        }
+        html += '<button class="wishlist-btn" onclick="event.preventDefault(); this.classList.toggle(\'active\'); showToast(this.classList.contains(\'active\') ? \'Added to wishlist\' : \'Removed from wishlist\');"><i class="fas fa-heart"></i></button>';
+        html += '</div>';
+        html += '<div class="product-details">';
+        html += '<span class="product-brand">' + product.brand + '</span>';
+        html += '<h3 class="product-name"><a href="product-detail.html?id=' + product.id + '">' + product.name + '</a></h3>';
+        if (hasSizes) {
+            html += '<span class="product-size-hint"><i class="fas fa-ruler"></i> ' + sizeLabel + '</span>';
+        }
+        html += '<div class="product-rating">';
+        html += '<span class="rating-badge">' + product.rating + ' <i class="fas fa-star"></i></span>';
+        html += '<span class="rating-count">(' + product.reviews.toLocaleString() + ')</span>';
+        html += '</div>';
+        html += '<div class="product-price">';
+        html += '<span class="current-price">&#8377;' + product.price.toLocaleString('en-IN') + '</span>';
+        html += '<span class="original-price">&#8377;' + originalPrice.toLocaleString('en-IN') + '</span>';
+        html += '<span class="discount-badge">' + product.discount + '% off</span>';
+        html += '</div>';
+        html += '</div>';
+        html += '<div class="product-actions-card">';
+        html += addButton;
+        html += '<a href="product-detail.html?id=' + product.id + '" class="btn btn-primary btn-sm" style="flex:1;"><i class="fas fa-eye"></i> View</a>';
+        html += '</div>';
+        html += '</div>';
+    }
+
+    container.innerHTML = html;
+}
+
+// === Render Checkout Sidebar ===
+function renderCheckoutSidebar(containerId) {
+    var container = document.getElementById(containerId);
+    if (!container) return;
+    var calc = getCartCalculations();
+    var cartItems = calc.cartItems;
+    var totalOriginal = calc.totalOriginal;
+    var discount = calc.discount;
+    var shipping = calc.shipping;
+    var total = calc.total;
+    var totalQty = calc.totalQty;
+
+    if (cartItems.length === 0) {
+        container.innerHTML = '<div class="sidebar-card"><p class="empty-sidebar">Cart is empty. <a href="products.html">Shop now</a></p></div>';
+        return;
+    }
+
+    var itemsHtml = '';
+    for (var i = 0; i < cartItems.length; i++) {
+        var item = cartItems[i];
+        var name = item.name.length > 35 ? item.name.substring(0, 35) + '...' : item.name;
+        itemsHtml += '<div class="sidebar-item">';
+        itemsHtml += '<img src="' + item.image + '" alt="' + item.name + '">';
+        itemsHtml += '<div>';
+        itemsHtml += '<p>' + name + '</p>';
+        if (item.selectedSize) {
+            itemsHtml += '<span class="sidebar-size">Size: ' + item.selectedSize + '</span>';
+        }
+        itemsHtml += '<span>Qty: ' + item.qty + ' x &#8377;' + item.price.toLocaleString('en-IN') + '</span>';
+        itemsHtml += '</div>';
+        itemsHtml += '</div>';
+    }
+
+    var shippingDisplay = shipping === 0 ? '<span class="free-delivery">FREE</span>' : '&#8377;' + shipping;
+
+    container.innerHTML =
+        '<div class="sidebar-card">' +
+        '<h3><i class="fas fa-shopping-bag"></i> Order Summary</h3>' +
+        '<div class="sidebar-items">' + itemsHtml + '</div>' +
+        '<div class="summary-divider"></div>' +
+        '<div class="summary-row"><span>Items (' + totalQty + ')</span><span>&#8377;' + totalOriginal.toLocaleString('en-IN') + '</span></div>' +
+        '<div class="summary-row discount"><span>Discount</span><span>-&#8377;' + discount.toLocaleString('en-IN') + '</span></div>' +
+        '<div class="summary-row"><span>Shipping</span>' + shippingDisplay + '</div>' +
+        '<div class="summary-divider"></div>' +
+        '<div class="summary-row total"><span>Total</span><span>&#8377;' + total.toLocaleString('en-IN') + '</span></div>' +
+        '<div class="summary-savings">You save &#8377;' + discount.toLocaleString('en-IN') + ' on this order!</div>' +
+        '</div>' +
+        '<div class="sidebar-card security-card">' +
+        '<div class="security-item"><i class="fas fa-shield-alt"></i><span>Secure Checkout</span></div>' +
+        '<div class="security-item"><i class="fas fa-undo"></i><span>Easy Returns</span></div>' +
+        '<div class="security-item"><i class="fas fa-truck"></i><span>Free Shipping &#8377;499+</span></div>' +
+        '<div class="security-item"><i class="fas fa-headset"></i><span>24/7 Support</span></div>' +
+        '</div>';
+}
+
+// === Mobile Menu Toggle ===
+document.addEventListener('DOMContentLoaded', function() {
+    var mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    var mobileNav = document.getElementById('mobileNav');
+    if (mobileMenuBtn && mobileNav) {
+        mobileMenuBtn.addEventListener('click', function() {
+            mobileNav.classList.toggle('show');
+            var icon = this.querySelector('i');
+            icon.className = mobileNav.classList.contains('show') ? 'fas fa-times' : 'fas fa-bars';
+        });
+    }
+
+    var searchBtn = document.getElementById('searchBtn');
+    var searchInput = document.getElementById('searchInput');
+    if (searchBtn && searchInput) {
+        function handleSearch() {
+            var query = searchInput.value.trim();
+            if (query && window.location.pathname.indexOf('products.html') === -1) {
+                window.location.href = 'products.html?search=' + encodeURIComponent(query);
+            }
+        }
+        searchBtn.addEventListener('click', handleSearch);
+        searchInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') handleSearch();
+        });
+    }
+
+    updateCartBadge();
+});
