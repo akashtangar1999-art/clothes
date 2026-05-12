@@ -140,9 +140,29 @@ function getProducts() {
                 "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K11.webp",
                 "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K12.webp"
             ],
-            description: "Strikingly thin design with M2 chip for incredible performance and up to 18 hours of battery life. 13.6-inch Liquid Retina display.",
-            sizes: null,
-            sizeType: null
+            description: "The matching Viscose Rayon pants are tailored for superior comfort and include a practical pocket design with a half-elastic waistband, ensuring flexibility and ease of movement for everyday wear. Completing the ensemble is a beautifully coordinated red cotton dupatta adorned with classic Bandhani prints that elevate the overall look with added sophistication and cultural richness.",
+           sizes: [
+                { label: "XS", value: "XS", inStock: true },
+                { label: "S", value: "S", inStock: true },
+                { label: "M", value: "M", inStock: true },
+                { label: "L", value: "L", inStock: true },
+                { label: "XL", value: "XL", inStock: true },
+                { label: "XXL", value: "XXL", inStock: false },
+                { label: "3XL", value: "3XL", inStock: true }
+            ],
+            sizeType: "clothing",
+            sizeChart: {
+                headers: ["Size", "Chest (inches)", "Length (inches)", "Shoulder (inches)"],
+                rows: [
+                    ["XS", "36", "26", "16"],
+                    ["S", "38", "27", "17"],
+                    ["M", "40", "28", "18"],
+                    ["L", "42", "29", "19"],
+                    ["XL", "44", "30", "20"],
+                    ["XXL", "46", "31", "21"],
+                    ["3XL", "48", "32", "22"]
+                ]
+            }
         },
         {
             id: 5,
