@@ -86,7 +86,7 @@ function getProducts() {
         },
         {
             id: 3,
-            name: "Sony WH-1000XM5 Wireless Noise Cancelling Headphones",
+            name: "Skylee Women Viscose Rayon Kurta Pant Dupatta Set",
             brand: "Sony",
             category: "electronics",
             subcategory: "audio",
@@ -94,12 +94,11 @@ function getProducts() {
             discount: 25,
             rating: 4.7,
             reviews: 15678,
-            image: "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=400&h=400&fit=crop",
+            image: "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K07.webp",
             images: [
-                "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1491927570842-0261e477d937?w=600&h=600&fit=crop"
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K07.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K08.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K09.webp"
             ],
             description: "Industry-leading noise cancellation with Auto NC Optimizer. Exceptionally comfortable and lightweight with 30 hours of battery life.",
             sizes: null,
