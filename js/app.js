@@ -8,7 +8,7 @@ function getProducts() {
             id: 5, name: "Nike Air Max 270 React Running Shoes - Men's",
             brand: "Nike", category: "fashion", subcategory: "shoes",
             price: 8995, discount: 35, rating: 4.3, reviews: 23456,
-            images:"https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K02.webp",
+            image: "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K02.webp",
             description: "The Nike Air Max 270 React combines two of Nike biggest innovations for an unbelievably soft and smooth ride. Lightweight and durable for all-day comfort.",
             sizes: [
                 { label: "UK 6", value: "UK6", inStock: true },
