@@ -850,59 +850,73 @@ function getProducts() {
         },
         {
             id: 23,
-            name: "Fitbit Charge 5 Advanced Fitness Tracker",
-            brand: "Fitbit",
-            category: "electronics",
-            subcategory: "wearable",
-            price: 14999,
-            discount: 20,
+            name: "TYRELL Men Linen Shirt Pant Set",
+            brand: "TYRELL",
+            category: "fashiom",
+            subcategory: "shirt",
+            price: 159,
+            discount: 90,
             rating: 4.3,
-            reviews: 6789,
-            image: "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400&h=400&fit=crop",
+            reviews: 3789,
+            image: "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/Linen01.jpeg",
             images: [
-                "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1617625802912-cde586faf749?w=600&h=600&fit=crop"
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/Linen01.jpeg",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/Linen02.jpeg",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/Linen03.jpeg"
             ],
-            description: "Advanced fitness tracker with built-in GPS, stress management tools, heart rate monitoring, and sleep tracking.",
-            sizes: null,
-            sizeType: null
+            description: "The elegant linen shirt features a refined tailored silhouette with a clean contemporary finish that offers a polished yet relaxed appearance suitable for multiple occasions. Paired with perfectly matching linen pants, this complete co-ord set creates a sophisticated and effortlessly stylish outfit that blends comfort with premium fashion appeal. The breathable and moisture-friendly linen fabric helps maintain freshness throughout the day while offering superior comfort during warm weather and long hours of wear.",
+             sizes: [
+                { label: "S (38)", value: "S", inStock: true },
+                { label: "M (40)", value: "M", inStock: true },
+                { label: "L (42)", value: "L", inStock: true },
+                { label: "XL (44)", value: "XL", inStock: true },
+                { label: "XXL (46)", value: "XXL", inStock: true }
+            ],
+            sizeType: "clothing",
+            sizeChart: {
+                headers: ["Size", "Chest (inches)", "Length (inches)", "Shoulder (inches)", "Sleeve (inches)"],
+                rows: [
+                    ["S (38)", "38", "28", "16.5", "24"],
+                    ["M (40)", "40", "29", "17.5", "25"],
+                    ["L (42)", "42", "30", "18.5", "26"],
+                    ["XL (44)", "44", "31", "19.5", "27"],
+                    ["XXL (46)", "46", "32", "20.5", "28"]
+                ]
+            }
         },
         {
             id: 24,
-            name: "Adidas Ultraboost 22 Running Shoes - Womens White",
-            brand: "Adidas",
+            name: "DEARISE Men Linen Blend Shirt Pant Set",
+            brand: "shein",
             category: "fashion",
-            subcategory: "shoes",
-            price: 12999,
-            discount: 28,
+            subcategory: "shirt",
+            price: 159,
+            discount: 90,
             rating: 4.6,
-            reviews: 9870,
-            image: "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&h=400&fit=crop",
+            reviews: 2870,
+            image: "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/Linen04.jpeg",
             images: [
-                "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=600&h=600&fit=crop"
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/Linen04.jpeg",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/Linen05.jpeg",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/Linen06.jpeg"
             ],
-            description: "Ultraboost 22 built with Linear Energy Push system adapted for the female foot. Incredible energy return with every stride.",
-            sizes: [
-                { label: "UK 4", value: "UK4", inStock: true },
-                { label: "UK 5", value: "UK5", inStock: true },
-                { label: "UK 6", value: "UK6", inStock: true },
-                { label: "UK 7", value: "UK7", inStock: false },
-                { label: "UK 8", value: "UK8", inStock: true }
+            description: "Redefine effortless sophistication with this premium Men’s Linen Shirt Pant Set, thoughtfully designed for modern men who appreciate luxury comfort, breathable fabrics, and timeless smart-casual fashion. Crafted from high-quality linen blend fabric, this stylish coordinated outfit delivers a soft texture, lightweight feel, and exceptional airflow, making it an ideal choice for summer fashion, vacation wear, resort styling, casual office looks, travel outfits, brunch gatherings, beach events, and modern everyday wear.",
+             sizes: [
+                { label: "S (38)", value: "S", inStock: true },
+                { label: "M (40)", value: "M", inStock: true },
+                { label: "L (42)", value: "L", inStock: true },
+                { label: "XL (44)", value: "XL", inStock: true },
+                { label: "XXL (46)", value: "XXL", inStock: true }
             ],
-            sizeType: "shoe",
+            sizeType: "clothing",
             sizeChart: {
-                headers: ["UK Size", "US Size", "EU Size", "Foot Length (cm)"],
+                headers: ["Size", "Chest (inches)", "Length (inches)", "Shoulder (inches)", "Sleeve (inches)"],
                 rows: [
-                    ["UK 4", "US 5.5", "EU 36.5", "22.5"],
-                    ["UK 5", "US 6.5", "EU 38", "23.5"],
-                    ["UK 6", "US 7.5", "EU 39.5", "24.5"],
-                    ["UK 7", "US 8.5", "EU 40.5", "25.5"],
-                    ["UK 8", "US 9.5", "EU 42", "26.0"]
+                    ["S (38)", "38", "28", "16.5", "24"],
+                    ["M (40)", "40", "29", "17.5", "25"],
+                    ["L (42)", "42", "30", "18.5", "26"],
+                    ["XL (44)", "44", "31", "19.5", "27"],
+                    ["XXL (46)", "46", "32", "20.5", "28"]
                 ]
             }
         }
