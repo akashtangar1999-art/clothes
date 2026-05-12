@@ -6,14 +6,14 @@ function getProducts() {
     return [
         {
             id: 1,
-            name: "Apple iPhone 15 Pro Max (256GB) - Natural Titanium",
-            brand: "Apple",
-            category: "electronics",
-            subcategory: "mobile",
-            price: 134900,
-            discount: 10,
+            name: "Neev's Dizain Studio Women Cotton Rayon Kurta Pant Set",
+            brand: "Gosriki",
+            category: "fashion",
+            subcategory: "kurti",
+            price: 139,
+            discount: 90,
             rating: 4.6,
-            reviews: 12543,
+            reviews: 1543,
             image: "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=400&h=400&fit=crop",
             images: [
                 "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&h=600&fit=crop",
