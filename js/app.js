@@ -11,18 +11,18 @@ function getProducts() {
             image: "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K01.webp",
             description: "The Nike Air Max 270 React combines two of Nike biggest innovations for an unbelievably soft and smooth ride. Lightweight and durable for all-day comfort.",
             sizes: [
-                { label: "UK 6", value: "UK6", inStock: true },
-                { label: "UK 7", value: "UK7", inStock: true },
-                { label: "UK 8", value: "UK8", inStock: true },
-                { label: "UK 9", value: "UK9", inStock: true },
-                { label: "UK 10", value: "UK10", inStock: false },
-                { label: "UK 11", value: "UK11", inStock: true },
-                { label: "UK 12", value: "UK12", inStock: true }
+                { label: "XS", value: "XS", inStock: true },
+                { label: "S", value: "S", inStock: true },
+                { label: "M", value: "M", inStock: true },
+                { label: "L", value: "L", inStock: true },
+                { label: "XL", value: "XL", inStock: true },
+                { label: "XXL", value: "XXL", inStock: false },
+                { label: "3XL", value: "3XL", inStock: true }
             ],
-            sizeType: "shoe",
+            sizeType: "clothing",
             sizeChart: {
-                headers: ["UK Size", "US Size", "EU Size", "Foot Length (cm)"],
-                rows: [["UK 6","US 7","EU 40","25.0"],["UK 7","US 8","EU 41","25.5"],["UK 8","US 9","EU 42","26.5"],["UK 9","US 10","EU 43","27.0"],["UK 10","US 11","EU 44","28.0"],["UK 11","US 12","EU 45","28.5"],["UK 12","US 13","EU 46","29.5"]]
+                headers: ["Size", "Chest (inches)", "Length (inches)", "Shoulder (inches)"],
+                rows: [["XS","36","26","16"],["S","38","27","17"],["M","40","28","18"],["L","42","29","19"],["XL","44","30","20"],["XXL","46","31","21"],["3XL","48","32","22"]]
             }
         },
         {
