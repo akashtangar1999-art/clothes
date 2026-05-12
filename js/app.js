@@ -61,8 +61,28 @@ function getProducts() {
                 "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K06.webp"
             ],
             description: "Discover timeless elegance and premium ethnic fashion with this beautifully crafted Embroidered A-Line Kurta Set for women, designed to combine luxurious comfort, sophisticated styling, and modern versatility. Tailored from high-quality breathable cotton fabric, this premium ethnic wear set offers a lightweight, skin-friendly, and comfortable experience ideal for all-day wear. The stunning A-line silhouette creates a graceful flow that flatters every body type while delivering a refined designer-inspired appearance suitable for festive occasions, office wear, weddings, family gatherings, cultural celebrations, and modern lifestyle fashion.",
-            sizes: null,
-            sizeType: null
+         sizes: [
+                { label: "XS", value: "XS", inStock: true },
+                { label: "S", value: "S", inStock: true },
+                { label: "M", value: "M", inStock: true },
+                { label: "L", value: "L", inStock: true },
+                { label: "XL", value: "XL", inStock: true },
+                { label: "XXL", value: "XXL", inStock: false },
+                { label: "3XL", value: "3XL", inStock: true }
+            ],
+            sizeType: "clothing",
+            sizeChart: {
+                headers: ["Size", "Chest (inches)", "Length (inches)", "Shoulder (inches)"],
+                rows: [
+                    ["XS", "36", "26", "16"],
+                    ["S", "38", "27", "17"],
+                    ["M", "40", "28", "18"],
+                    ["L", "42", "29", "19"],
+                    ["XL", "44", "30", "20"],
+                    ["XXL", "46", "31", "21"],
+                    ["3XL", "48", "32", "22"]
+                ]
+            }
         },
         {
             id: 3,
