@@ -90,10 +90,10 @@ function getProducts() {
             brand: "Sony",
             category: "electronics",
             subcategory: "audio",
-            price: 26990,
-            discount: 25,
+            price: 139,
+            discount: 90,
             rating: 4.7,
-            reviews: 15678,
+            reviews: 1678,
             image: "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K07.webp",
             images: [
                 "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K07.webp",
