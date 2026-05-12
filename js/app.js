@@ -9,7 +9,7 @@ function getProducts() {
             brand: "Nike", category: "fashion", subcategory: "shoes",
             price: 8995, discount: 35, rating: 4.3, reviews: 23456,
             image: "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/K01.webp",
-            description: "The Nike Air Max 270 React combines two of Nike biggest innovations for an unbelievably soft and smooth ride. Lightweight and durable for all-day comfort.",
+            description: "Upgrade your ethnic wardrobe with this premium women’s cotton kurta and pant set, designed to deliver unmatched comfort, elegant fashion, and modern versatility for every occasion. Made from high-quality breathable 100% cotton fabric, this stylish outfit offers a lightweight and skin-friendly feel, making it perfect for daily wear, office wear, festive gatherings, travel, and casual outings. The beautifully crafted V-neck kurta features intricate embroidery detailing on the sleeves and neckline, adding a luxurious designer-inspired touch that enhances its sophisticated appearance. Paired with comfortable straight-fit cotton pants, this coordinated outfit creates a polished and graceful look suitable for women who value both fashion and comfort.",
             sizes: [
                 { label: "XS", value: "XS", inStock: true },
                 { label: "S", value: "S", inStock: true },
