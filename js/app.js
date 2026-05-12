@@ -738,24 +738,39 @@ function getProducts() {
         },
         {
             id: 20,
-            name: "Adidas Mens Striker II Team Backpack",
-            brand: "Adidas",
-            category: "sports",
-            subcategory: "bags",
-            price: 2499,
-            discount: 30,
-            rating: 4.4,
-            reviews: 15678,
-            image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop",
+            name: "JUGULAR Men Printed Round Neck Pure Cotton Light Green T-Shirt",
+            brand: "JUGULAR",
+            category: "fashion",
+            subcategory: "tshirt",
+            price: 139,
+            discount: 90,
+            rating: 4.0,
+            reviews: 1578,
+            image: "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P31.webp",
             images: [
-                "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=600&h=600&fit=crop",
-                "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&h=600&fit=crop"
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P31.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P32.webp",
+                "https://pub-bdcc7c641e344b0b9f401131bebb9a44.r2.dev/P33.webp"
             ],
-            description: "Durable team backpack with multiple compartments. Features padded shoulder straps and padded back panel for comfort.",
-            sizes: null,
-            sizeType: null
+            description: "Upgrade your activewear and casual fashion collection with this premium men’s sports T-shirt from JUGULAR, designed for modern men who value sporty style, all-day comfort, and versatile everyday fashion. Crafted with high-quality breathable fabric, this trendy men’s T-shirt delivers a lightweight, soft-touch, and comfortable wearing experience suitable for casual outings, gym sessions, sports activities, travel, outdoor adventures, and relaxed everyday wear.",
+          sizes: [
+                { label: "XS", value: "XS", inStock: true },
+                { label: "S", value: "S", inStock: true },
+                { label: "M", value: "M", inStock: true },
+                { label: "L", value: "L", inStock: true },
+                { label: "XL", value: "XL", inStock: false }
+            ],
+            sizeType: "clothing",
+            sizeChart: {
+                headers: ["Size", "Chest (inches)", "Length (inches)", "Sleeve (inches)"],
+                rows: [
+                    ["XS", "38", "25", "23"],
+                    ["S", "40", "26", "24"],
+                    ["M", "42", "27", "25"],
+                    ["L", "44", "28", "26"],
+                    ["XL", "46", "29", "27"]
+                ]
+            }
         },
         {
             id: 21,
